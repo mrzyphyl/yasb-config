@@ -1,0 +1,90 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.37/schema.bar.json",
+  "monitor": 0,
+  "font_family": "Fira Code",
+  "theme": {
+    "palette": "Base16",
+    "name": "GrayscaleDark",
+    "accent": "Base08"
+  },
+  "margin": { "top": 5, "bottom": 0, "left": 7, "right": 7 },
+  "height": 30,
+  "transparency_alpha": 220,
+  "left_widgets": [
+    {
+      "Applications": {
+        "items": [
+          {
+            "name": "Terminal",
+            "icon": "🖥️",
+            "command": "wt"
+          }
+        ],
+        "enable": true,
+        "show_icon": true,
+        "show_name": true,
+        "show_tooltip": true
+      }
+    },
+    {
+      "Komorebi": {
+        "workspaces": {
+          "enable": true,
+          "hide_empty_workspaces": true
+        }
+      }
+    },
+    {
+      "Komorebi": {
+        "layout": {
+          "enable": true
+        },
+        "focused_window": {
+          "enable": true,
+          "show_icon": true
+        }
+      }
+    }
+  ],
+  "center_widgets": [
+    {
+      "Date": {
+        "enable": true,
+        "format": "DayDateMonthYear"
+      }
+    },
+    {
+      "Time": {
+        "enable": true,
+        "format": "TwelveHour"
+      }
+    }
+  ],
+  "right_widgets": [
+    {
+      "Update": {
+        "enable": true
+      }
+    },
+    {
+      "Storage": {
+        "enable": true
+      }
+    },
+    {
+      "Memory": {
+        "enable": true
+      }
+    },
+    {
+      "Cpu": {
+        "enable": true,
+        "show_icon": true,
+        "show_percentage": true,
+        "show_temperature": true,
+        "show_temperature_unit": "Celsius",
+        "show_temperature_icon": true
+      }
+    }
+  ]
+}
