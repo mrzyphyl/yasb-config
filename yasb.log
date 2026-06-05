@@ -5542,3 +5542,746 @@ Current thread's C stack trace (most recent call first):
 2026-06-04 03:11:30,302 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
 2026-06-04 03:11:30,322 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
 2026-06-04 03:11:30,326 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-06-04 10:36:23,241 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.1
+2026-06-04 10:36:23,243 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-06-04 10:36:23,243 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-06-04 10:36:23,501 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-06-04 10:36:23,501 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-06-04 10:36:23,805 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-06-04 10:36:23,805 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-06-04 10:36:24,743 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 10:36:24,764 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 10:36:24,789 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 10:36:24,880 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-06-04 10:36:25,117 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-06-04 10:36:25,118 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-06-04 10:36:25,119 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-06-04 10:36:25,121 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-2e58a850-5fbe-11f1-a1ff-001a7dda7110
+2026-06-04 10:36:25,124 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\dispo\.config\yasb
+2026-06-04 10:36:25,125 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-06-04 10:36:25,561 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-06-04 10:36:25,746 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-06-04 10:36:26,038 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 10:36:26.037968
+2026-06-04 10:36:56,411 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-2e58a850-5fbe-11f1-a1ff-001a7dda7110
+2026-06-04 10:46:25,092 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 10:46:25.092504
+2026-06-04 10:56:25,038 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 10:56:25.038699
+2026-06-04 11:06:25,060 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 11:06:25.060461
+2026-06-04 11:16:25,029 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 11:16:25.029255
+2026-06-04 11:26:25,152 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 11:26:25.152458
+2026-06-04 11:36:25,031 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 11:36:25.031891
+2026-06-04 11:46:25,072 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 11:46:25.072404
+2026-06-04 11:56:25,053 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 11:56:25.053905
+2026-06-04 12:06:25,025 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 12:06:25.025813
+2026-06-04 12:17:06,864 [WARNING] [MainThread] [root/api.py:80]: Weather API returned error None. Will retry on next interval.
+2026-06-04 12:17:06,866 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 12:17:58,948 [WARNING] [MainThread] [root/api.py:80]: Weather API returned error None. Will retry on next interval.
+2026-06-04 12:17:58,949 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 12:18:09,272 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 12:18:09.272052
+2026-06-04 12:26:25,051 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 12:26:25.051379
+2026-06-04 12:36:25,065 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 12:36:25.065497
+2026-06-04 12:46:25,048 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 12:46:25.048939
+2026-06-04 12:56:25,054 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 12:56:25.054846
+2026-06-04 13:06:24,752 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:06:24,753 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:06:34,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:06:34,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:06:44,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:06:44,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:06:54,747 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:06:54,748 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:07:04,752 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:07:04,752 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:07:14,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:07:14,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:07:24,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:07:24,750 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:07:34,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:07:34,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:07:44,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:07:44,750 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:07:54,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:07:54,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:08:04,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:08:04,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:08:14,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:08:14,751 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:08:24,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:08:24,750 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:08:34,753 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:08:34,754 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:08:45,058 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 13:08:45.058318
+2026-06-04 13:16:24,752 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:16:24,752 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:16:34,752 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:16:34,752 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:16:44,759 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:16:44,759 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:16:54,766 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:16:54,767 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:17:04,767 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:17:04,767 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:17:14,767 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:17:14,767 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:17:24,767 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:17:24,767 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:17:34,766 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:17:34,766 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:17:44,767 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:17:44,767 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:17:54,767 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:17:54,767 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:18:04,769 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:18:04,770 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:18:14,784 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:18:14,784 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:18:24,783 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:18:24,783 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:18:34,783 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:18:34,783 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:18:44,782 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:18:44,782 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:18:54,782 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:18:54,783 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:19:04,783 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:19:04,783 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:19:14,788 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:19:14,789 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:19:24,794 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:19:24,795 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:19:34,789 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:19:34,789 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:19:44,799 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:19:44,799 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:19:54,799 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:19:54,800 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:20:04,817 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:20:04,817 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:20:14,837 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:20:14,837 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:20:24,836 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:20:24,837 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:20:34,833 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:20:34,833 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:20:44,833 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:20:44,834 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:20:54,833 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:20:54,833 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:21:04,833 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:21:04,833 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:21:14,836 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:21:14,837 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:21:24,852 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:21:24,852 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:21:34,861 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:21:34,861 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:21:44,868 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:21:44,869 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:21:54,864 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:21:54,865 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:22:04,884 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:22:04,884 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:22:14,884 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:22:14,885 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:22:24,885 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:22:24,886 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:22:34,884 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:22:34,884 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:22:44,884 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:22:44,884 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:22:54,885 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:22:54,885 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:23:04,884 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:23:04,885 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:23:14,898 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:23:14,898 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:23:24,901 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:23:24,902 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:23:34,911 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:23:34,911 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:23:44,916 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:23:44,916 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:23:54,927 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:23:54,928 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:24:04,960 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:24:04,961 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:24:14,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:24:14,965 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:24:24,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:24:24,965 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:24:34,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:24:34,965 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:24:44,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:24:44,964 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:24:54,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:24:54,964 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:25:04,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:25:04,965 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:25:14,964 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:25:14,964 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:25:24,979 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:25:24,979 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:25:34,984 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:25:34,984 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:25:44,997 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:25:44,997 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:25:54,996 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:25:54,997 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:26:04,996 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:04,996 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:26:14,997 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:14,997 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:26:24,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:24,996 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:24,996 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:26:35,000 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:35,000 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:26:44,997 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:44,997 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:26:55,013 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:26:55,013 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:27:05,016 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:27:05,016 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:27:15,029 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:27:15,029 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:27:25,029 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:27:25,029 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:27:35,048 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:27:35,048 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:27:45,045 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:27:45,045 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:27:55,044 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:27:55,044 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:28:05,039 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:28:05,040 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:28:15,045 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:28:15,045 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:28:25,064 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:28:25,064 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:28:35,061 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:28:35,061 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:28:45,055 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:28:45,055 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:28:55,060 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:28:55,060 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:29:05,059 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:29:05,060 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:29:15,060 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:29:15,060 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:29:25,061 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:29:25,061 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:29:35,057 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:29:35,058 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:29:45,060 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:29:45,060 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:29:55,061 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:29:55,061 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:30:05,081 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:30:05,082 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:30:15,086 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:30:15,086 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:30:25,093 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:30:25,093 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:30:35,096 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:30:35,096 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:30:45,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:30:45,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:30:55,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:30:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:31:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:31:05,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:31:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:31:15,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:31:25,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:31:25,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:31:35,109 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:31:35,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:31:45,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:31:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:31:55,106 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:31:55,106 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:32:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:32:05,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:32:15,104 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:32:15,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:32:25,109 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:32:25,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:32:35,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:32:35,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:32:45,104 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:32:45,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:32:55,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:32:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:33:05,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:33:05,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:33:15,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:33:15,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:33:25,106 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:33:25,107 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:33:35,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:33:35,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:33:45,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:33:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:33:55,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:33:55,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:34:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:34:05,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:34:15,106 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:34:15,106 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:34:25,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:34:25,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:34:35,109 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:34:35,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:34:45,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:34:45,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:34:55,109 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:34:55,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:35:05,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:35:05,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:35:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:35:15,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:35:25,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:35:25,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:35:35,110 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:35:35,110 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:35:45,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:35:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:35:55,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:35:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:36:05,107 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:05,107 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:36:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:15,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:36:24,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:25,109 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:25,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:36:35,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:35,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:36:45,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:45,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:36:55,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:36:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:37:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:37:05,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:37:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:37:15,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:37:25,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:37:25,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:37:35,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:37:35,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:37:45,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:37:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:37:55,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:37:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:38:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:38:05,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:38:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:38:15,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:38:25,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:38:25,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:38:35,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:38:35,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:38:45,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:38:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:38:55,106 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:38:55,106 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:39:05,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:39:05,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:39:15,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:39:15,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:39:25,106 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:39:25,106 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:39:35,109 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:39:35,109 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:39:45,104 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:39:45,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:39:55,106 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:39:55,106 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:40:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:40:05,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:40:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:40:15,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:40:25,111 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:40:25,111 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:40:35,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:40:35,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:40:45,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:40:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:40:55,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:40:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:41:05,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:41:05,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:41:15,104 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:41:15,104 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:41:25,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:41:25,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:41:35,108 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:41:35,108 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:41:45,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:41:45,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:41:55,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:41:55,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:42:05,102 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:42:05,102 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:42:15,103 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:42:15,103 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:42:25,111 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:42:25,111 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:42:35,115 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:42:35,115 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:42:45,125 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:42:45,125 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:42:55,118 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:42:55,119 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:43:05,119 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:43:05,119 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:43:15,119 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:43:15,120 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:43:25,121 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:43:25,122 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:43:35,118 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:43:35,118 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:43:45,119 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:43:45,119 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:43:55,121 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:43:55,121 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:44:05,118 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:44:05,118 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:44:15,118 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:44:15,118 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:44:25,129 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:44:25,129 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:44:35,137 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:44:35,137 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:44:45,141 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:44:45,141 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:44:55,135 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:44:55,135 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:45:05,134 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:45:05,135 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:45:15,134 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:45:15,134 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:45:25,141 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:45:25,142 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:45:35,136 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:45:35,136 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:45:45,134 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:45:45,135 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:45:55,138 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:45:55,138 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:46:05,134 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:05,134 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:46:15,135 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:15,135 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:46:24,750 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:25,133 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:25,133 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:46:35,140 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:35,141 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:46:45,134 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:45,135 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:46:55,144 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:46:55,144 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:47:05,151 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:47:05,151 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:47:22,202 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:47:22,203 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:47:32,196 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:47:32,196 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:47:42,197 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:47:42,197 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:47:52,208 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:47:52,208 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:48:02,212 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:48:02,212 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:48:12,231 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:48:12,231 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:48:22,228 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:48:22,228 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:48:32,240 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:48:32,240 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:48:42,247 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:48:42,247 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:48:52,244 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:48:52,244 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:49:02,244 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:49:02,244 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:49:12,246 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:49:12,247 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:49:22,242 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:49:22,243 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:49:32,244 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:49:32,244 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:49:42,257 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:49:42,257 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:49:52,260 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:49:52,261 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:50:02,277 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:50:02,277 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:50:12,277 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:50:12,277 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:50:22,277 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:50:22,277 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:50:32,276 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:50:32,276 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:50:42,276 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:50:42,276 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:50:52,290 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:50:52,290 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:51:02,295 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:51:02,296 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:51:12,307 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:51:12,307 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:51:22,309 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:51:22,309 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:51:32,310 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:51:32,311 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:51:42,309 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:51:42,309 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:51:52,310 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:51:52,310 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:52:02,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:52:02,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:52:12,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:52:12,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:52:22,313 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:52:22,313 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:52:32,309 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:52:32,309 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:52:42,309 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:52:42,309 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:52:52,312 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:52:52,312 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:53:02,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:53:02,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:53:12,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:53:12,309 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:53:22,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:53:22,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:53:32,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:53:32,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:53:42,309 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:53:42,309 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:53:52,313 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:53:52,313 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:54:02,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:54:02,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:54:12,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:54:12,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:54:22,312 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:54:22,312 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:54:32,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:54:32,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:54:42,308 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:54:42,308 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:54:52,323 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:54:52,323 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:55:02,325 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:55:02,325 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:55:12,325 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:55:12,325 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:55:22,328 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:55:22,328 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:55:32,325 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:55:32,325 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:55:42,340 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:55:42,340 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:55:52,340 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:55:52,340 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:56:02,354 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:02,354 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:56:12,356 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:12,356 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:56:22,356 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:22,356 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:56:24,751 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:32,356 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:32,356 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:56:42,357 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:42,357 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:56:52,356 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:56:52,356 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:57:02,359 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:57:02,359 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:57:12,372 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:57:12,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:57:22,372 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:57:22,372 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:57:32,373 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:57:32,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:57:42,373 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:57:42,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:57:52,367 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:57:52,367 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:58:02,373 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:58:02,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:58:12,372 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:58:12,372 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:58:22,372 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:58:22,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:58:32,373 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:58:32,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:58:42,367 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:58:42,367 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:58:52,372 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:58:52,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:59:02,373 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:59:02,373 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:59:12,385 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:59:12,385 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:59:22,389 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:59:22,389 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:59:32,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:59:32,388 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:59:42,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:59:42,388 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 13:59:52,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 13:59:52,389 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:00:02,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:00:02,388 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:00:12,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:00:12,388 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:00:22,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:00:22,389 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:00:32,388 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:00:32,388 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:00:42,383 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:00:42,383 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:00:52,404 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:00:52,405 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:01:02,404 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:01:02,405 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:01:12,404 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:01:12,405 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:01:22,404 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:01:22,405 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:01:32,401 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:01:32,401 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:01:42,406 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:01:42,406 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:01:52,400 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:01:52,400 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:02:02,402 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:02:02,402 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:02:12,404 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:02:12,404 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:02:13,077 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-06-04 14:02:13,182 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-06-04 14:02:13,273 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-06-04 14:02:13,278 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-06-04 14:02:13,283 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-06-04 14:51:49,607 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.1
+2026-06-04 14:51:49,609 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-06-04 14:51:49,610 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-06-04 14:51:49,859 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-06-04 14:51:49,859 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-06-04 14:51:50,123 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-06-04 14:51:50,123 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-06-04 14:51:51,118 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 14:51:51,137 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 14:51:51,159 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 14:51:51,255 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-06-04 14:51:51,461 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-06-04 14:51:51,462 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-06-04 14:51:51,463 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-06-04 14:51:51,465 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-dd8f198f-5fe1-11f1-aa38-001a7dda7110
+2026-06-04 14:51:51,466 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\dispo\.config\yasb
+2026-06-04 14:51:51,467 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-06-04 14:51:51,908 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-06-04 14:51:52,039 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:51:52,040 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:51:52,060 [WARNING] [Dummy-6] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-06-04 14:51:52,392 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-06-04 14:51:52,393 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-06-04 14:52:02,042 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:52:02,043 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:52:07,308 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-dd8f198f-5fe1-11f1-aa38-001a7dda7110
+2026-06-04 14:52:12,044 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:52:12,044 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:52:22,050 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:52:22,050 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:52:32,065 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:52:32,066 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:52:42,094 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:52:42,094 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:52:52,114 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:52:52,114 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:53:02,140 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:53:02,141 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:53:12,136 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:53:12,137 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:53:22,138 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:53:22,138 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:53:32,146 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:53:32,147 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:53:42,175 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:53:42,175 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:53:52,195 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-06-04 14:53:52,195 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 14:54:00,543 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-06-04 14:54:00,649 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-06-04 14:54:00,724 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-06-04 14:54:00,727 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-06-04 14:54:00,733 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
+2026-06-04 19:31:22,262 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.1
+2026-06-04 19:31:22,265 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-06-04 19:31:22,266 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-06-04 19:31:22,554 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-06-04 19:31:22,554 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-06-04 19:31:23,279 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-06-04 19:31:23,279 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'container_padding' - Use CSS padding instead.
+2026-06-04 19:31:24,378 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 19:31:24,401 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CpuConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 19:31:24,429 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] MemoryConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-06-04 19:31:24,535 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-06-04 19:31:24,789 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-06-04 19:31:24,790 [INFO] [MainThread] [root/bar_manager.py:102]: Starting WindowsNotificationEventListener...
+2026-06-04 19:31:24,792 [INFO] [MainThread] [root/bar_manager.py:102]: Starting SystemEventListener...
+2026-06-04 19:31:24,794 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\dispo\.config\yasb
+2026-06-04 19:31:24,795 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-06-04 19:31:25,271 [INFO] [Dummy-7] [root/event_listener.py:54]: Created named pipe yasb-eb3de744-6008-11f1-955a-001a7dda7110
+2026-06-04 19:31:25,341 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-06-04 19:31:25,935 [WARNING] [Dummy-7] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-06-04 19:31:25,987 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 19:31:25.987539
+2026-06-04 19:31:41,231 [INFO] [Dummy-7] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-eb3de744-6008-11f1-955a-001a7dda7110
+2026-06-04 19:41:24,716 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 19:41:24.716040
+2026-06-04 19:51:24,729 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 19:51:24.729786
+2026-06-04 20:01:24,747 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 20:01:24.747708
+2026-06-04 20:11:24,784 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 20:11:24.784114
+2026-06-04 20:21:24,709 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 20:21:24.709327
+2026-06-04 20:31:24,735 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 20:31:24.735303
+2026-06-04 20:41:24,758 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 20:41:24.758944
+2026-06-04 20:51:24,742 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 20:51:24.742426
+2026-06-04 21:01:24,775 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 21:01:24.775693
+2026-06-04 21:11:24,769 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 21:11:24.768967
+2026-06-04 21:21:25,028 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 21:21:25.028909
+2026-06-04 21:31:24,782 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 21:31:24.782039
+2026-06-04 21:41:24,766 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 21:41:24.766898
+2026-06-04 21:51:24,721 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 21:51:24.721599
+2026-06-04 22:01:24,801 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 22:01:24.801747
+2026-06-04 22:11:24,752 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 22:11:24.752289
+2026-06-04 22:21:24,785 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 22:21:24.785563
+2026-06-04 22:31:24,757 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 22:31:24.757449
+2026-06-04 22:41:24,740 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 22:41:24.740559
+2026-06-04 22:51:24,762 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 22:51:24.762588
+2026-06-04 23:01:24,751 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 23:01:24.751262
+2026-06-04 23:11:24,750 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 23:11:24.750639
+2026-06-04 23:21:24,761 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 23:21:24.761557
+2026-06-04 23:32:06,593 [WARNING] [MainThread] [root/api.py:80]: Weather API returned error None. Will retry on next interval.
+2026-06-04 23:32:06,619 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 23:32:58,724 [WARNING] [MainThread] [root/api.py:80]: Weather API returned error None. Will retry on next interval.
+2026-06-04 23:32:58,724 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 23:33:50,858 [WARNING] [MainThread] [root/api.py:80]: Weather API returned error None. Will retry on next interval.
+2026-06-04 23:33:50,858 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 23:34:42,962 [WARNING] [MainThread] [root/api.py:80]: Weather API returned error None. Will retry on next interval.
+2026-06-04 23:34:42,963 [WARNING] [MainThread] [root/weather.py:591]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-06-04 23:34:53,339 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 23:34:53.339232
+2026-06-04 23:41:24,771 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 23:41:24.771846
+2026-06-04 23:51:24,736 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-04 23:51:24.736320
+2026-06-05 00:01:24,763 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-05 00:01:24.763617
+2026-06-05 00:11:24,783 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-05 00:11:24.783200
+2026-06-05 00:21:24,744 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-06-05 00:21:24.744463
+2026-06-05 00:23:04,718 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-06-05 00:23:04,827 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-06-05 00:23:04,930 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-06-05 00:23:04,938 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping WindowsNotificationEventListener...
+2026-06-05 00:23:04,950 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping SystemEventListener...
